@@ -5,7 +5,6 @@ Release:	%mkrel 5
 License:	BSD
 Group:		Sound
 Source0:	ftp://ftp.dementia.org/pub/linux/sparc/audio/%{name}-%{version}.tar.bz2
-Buildroot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 ExclusiveArch:	sparc sparcv9 sparc64
 
 %description
