@@ -1,7 +1,7 @@
 Summary:	An audio control application for Linux/SPARC
 Name:		audioctl
 Version:	1.3
-Release:	%mkrel 5
+Release:	%mkrel 6
 License:	BSD
 Group:		Sound
 Source0:	ftp://ftp.dementia.org/pub/linux/sparc/audio/%{name}-%{version}.tar.bz2
