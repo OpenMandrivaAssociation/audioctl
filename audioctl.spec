@@ -20,13 +20,13 @@ rate, and output device.
 make CFLAGS="$RPM_OPT_FLAGS"
 
 %install
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 
-install -m755 %{name} -D $RPM_BUILD_ROOT%{_bindir}/%{name}
-install -m644 %{name}.1  -D $RPM_BUILD_ROOT%{_mandir}/man1/%{name}.1
+install -m755 %{name} -D %{buildroot}%{_bindir}/%{name}
+install -m644 %{name}.1  -D %{buildroot}%{_mandir}/man1/%{name}.1
 
 %clean
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root)
